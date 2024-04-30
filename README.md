@@ -1,4 +1,4 @@
-# projectagl
+# projet agl domotique
 ![OIP (1)](https://github.com/nouhabennasr/projectagl/assets/168307999/2cf9d151-cd67-432a-b903-d422a4ab9f8f)
 
 
@@ -18,10 +18,10 @@ Atelier de Génie Logiciel : Document de specification, conception preliminaire
                  Réalisé par :Nouha ben nasr ,Salima Boudinar et Ines Mazgar
 
 
- 🚩 1.Introduction du projet :
+ ## 🚩1.Introduction du projet :
 
 
-Choix du sujet et description générale :
+### Choix du sujet et description générale :
 
 
 La domotique représente un système innovant qui offre la possibilité de gérer et d'automatiser divers équipements domestiques tels que l'éclairage, le chauffage, la climatisation, les serrures et les appareils électroménagers. 
@@ -33,7 +33,7 @@ Notre domotique aura le nom de CasaControl.
 Son objectif premier est d'améliorer le confort, la praticité et l'efficacité énergétique de la maison.
 
 
-Motivations :
+### Motivations :
 
 
 Même si ce projet n’était pas notre premier choix, mais cette technologie a captivé notre intérêt pour plusieurs raisons : 
@@ -41,14 +41,14 @@ Même si ce projet n’était pas notre premier choix, mais cette technologie a 
 
 -	Selon une enquête de Vodafone, 84% des entreprises utilisent l'IoT dans leur activité en 2021. Puisque l'IoT fournit les bases technologiques nécessaires à la création de systèmes domotique, on doit être plus informé sur ces deux domaines.
 -	On veut en savoir plus sur la domotique.
--            On veut travailler sur un système qui respecte l’environnement.
+-   On veut travailler sur un système qui respecte l’environnement.
 -	Le comfort est l’un des besoins essentiels des clients de nos jours. C’est pour cela qu'on veut être renseigné sur ce système tant demandé.
--            Les personnes en situation de handicap et les personnes âgées ont parfois des difficultés, voire même une incapacité totale à effectuer les activités quotidiennes de manière autonome.
+- Les personnes en situation de handicap et les personnes âgées ont parfois des difficultés, voire même une incapacité totale à effectuer les activités quotidiennes de manière autonome.
 
 
 
 
-Le périmètre du projet :
+### Le périmètre du projet :
 
 
 Le projet CasaControl vise à développer un système domotique complet et personnalisable, offrant une gamme variée de fonctionnalités pour répondre aux besoins individuels des utilisateurs. 
@@ -71,7 +71,7 @@ Donc, le but de notre application est de surmonter ces problèmes en offrant le 
 bien son ordinateur commander les équipements électriques de son domicile à distance.
 
 
-L’ interface de l’utilisateur permet d’indiquer l’état et de piloter les équipements électriques suivants :
+#### L’ interface de l’utilisateur permet d’indiquer l’état et de piloter les équipements électriques suivants :
 
 Les portes (porte garage, porte principale…).
 Les fenêtres
@@ -86,9 +86,9 @@ Cette application sera embarquée dans le Raspberry Pi.
 
 
 
- 🚩 2.Spécifications du projet :
+## 🚩 2.Spécifications du projet :
 
-a) Notions de base et contraintes du projet :
+### a) Notions de base et contraintes du projet :
 
 
 Les systèmes domotiques se basent sur l'utilisation de capteurs, d'actionneurs et de contrôleurs pour surveiller l'environnement domestique et prendre des décisions en fonction des données collectées. 
@@ -121,7 +121,7 @@ Le fonctionnement de manière fiable, même dans des conditions imprévues ou en
 
 Considération des besoins et des préférences des utilisateurs dans la conception des interfaces utilisateur pour qu’elles soient conviviales, faciles à utiliser et intuitives .
 
-b) Description des acteurs et fonctionnalités attendues du projet :
+### b) Description des acteurs et fonctionnalités attendues du projet :
 
 
 
@@ -151,10 +151,10 @@ Surveillance de la maison, en temps réel et à distance : détection des intrus
 Automatisation des tâches : la possibilité d’ouvrir/ fermer les portes et les volets, à distance pour les visiteurs autorisés. 
 
 
- 🚩3) Les diagramme de cas d’utilisation :
+##  🚩3) Les diagramme de cas d’utilisation :
 
 
-a)Diagramme de cas d’utilisation générale de notre système domotique :
+### a)Diagramme de cas d’utilisation générale de notre système domotique :
 
 
 A ce stade là, nous présentons le diagramme de cas d’utilisation général de notre système domotique
@@ -168,7 +168,7 @@ indiqué dans
 L’utilisateur doit s’authentifier afin de pouvoir gérer la liste des équipements électriques soit à distance soit localement.
 
 
-b)Diagramme de cas d’utilisation restreint de notre système domotique :
+### b)Diagramme de cas d’utilisation restreint de notre système domotique :
 
 
 Le fonctionnement de notre système domotique peut être décrit par le cas d’utilisation de la figure 2 :
@@ -190,7 +190,7 @@ différentes pièces…
 
 «Supprimer des équipements électriques » :  l’utilisateur peut supprimer l’équipement électrique.
 
-c)Diagramme de cas d’utilisation détaillé de “Piloter les équipements électriques” :
+### c)Diagramme de cas d’utilisation détaillé de “Piloter les équipements électriques” :
 
 
 Le fonctionnement de pilotage de la plateforme domotique peut être décrit par le cas
@@ -207,7 +207,7 @@ d’utilisation. En effet, l’utilisateur distant a le choix de démarrer, arr�
 « S’authentifier » : l’utilisateur doit s’authentifier.
 
 
-d)Diagramme de cas d’utilisation détaillé  :
+### d)Diagramme de cas d’utilisation détaillé  :
 
 
 Le diagramme ci-dessous représente les fonctionnalités principales du système CasaControl, une plateforme de gestion domotique permettant aux utilisateurs de contrôler efficacement leurs équipements électriques.
@@ -217,35 +217,35 @@ Le diagramme ci-dessous représente les fonctionnalités principales du système
 
 ![Capture d'écran 2024-04-29 124559](https://github.com/nouhabennasr/projectagl/assets/168307999/96fd6a8d-ee32-4f9a-9e52-129b8dfe500b)
 
-S'authentifier :
+• S'authentifier :
 Permet à l'utilisateur de se connecter au système CasaControl, assurant ainsi la sécurité et l'accès contrôlé aux fonctionnalités.
 
-Activer un équipement électrique :
+• Activer un équipement électrique :
 L'utilisateur peut activer un équipement électrique sélectionné dans le système.
 
-Désactiver un équipement électrique :
+• Désactiver un équipement électrique :
 L'utilisateur peut désactiver un équipement électrique sélectionné dans le système.
 
-Piloter les différents équipements électriques :
+• Piloter les différents équipements électriques :
 L'utilisateur peut contrôler divers aspects des équipements électriques tels que la puissance, la température et la vitesse, et est inclus dans plusieurs autres cas d'utilisation.
 
-Afficher la liste des équipements :
+• Afficher la liste des équipements :
 Offre à l'utilisateur une vue globale de tous les équipements connectés, facilitant ainsi la gestion et le suivi.
 
-Consulter les états d'un équipement électrique :
+• Consulter les états d'un équipement électrique :
 Permet à l'utilisateur de visualiser l'état actuel d'un équipement électrique, ce qui est essentiel pour surveiller les performances et diagnostiquer les problèmes éventuels.
 
-Ajouter un équipement électrique :
+• Ajouter un équipement électrique :
 L'utilisateur peut ajouter un nouvel équipement électrique au système en saisissant les informations nécessaires telles que le type, la marque et le modèle.
 
-Supprimer un équipement :
+• Supprimer un équipement :
 L'utilisateur peut supprimer un équipement électrique existant du système.
 
-Configurer un équipement électrique :
+• Configurer un équipement électrique :
 L'utilisateur peut configurer les paramètres d'un équipement électrique existant tels que son nom, sa description et son groupe.
 
 
- 🚩 4)Élection des cas d’utilisation pour le sprint 1; Priorité des cas d’utilisation :
+## 🚩 4)Élection des cas d’utilisation pour le sprint 1; Priorité des cas d’utilisation :
 
 
 Dans l'ordre de priorité des cas d'utilisation pour un système domotique, l'ajout d'un équipement est placé en première position ( must ) , suivi de la liste des équipements disponibles (required )  et enfin de l'activation des équipements ( must ).
@@ -256,13 +256,13 @@ Cette hiérarchisation reflète l'importance de répondre aux besoins immédiats
 
 
 
-Description du cas d'utilisation : Ajouter un équipement
+### Description du cas d'utilisation : Ajouter un équipement
 
 
-Acteur principal : Utilisateur
+•• Acteur principal : Utilisateur
 
 
-Préconditions :
+• Préconditions :
 
 
 
@@ -305,13 +305,13 @@ Le nouvel équipement électrique est ajouté avec succès au système CasaContr
 |-------------------------------------|--------|--------|--------|--------|--------|--------|
 | Nombre de jeux de tests             | 2      | 2      | 1      | n*2    | 1      | 1      |
 
-Description du cas d'utilisation : Activer un équipement électrique
+•• Description du cas d'utilisation : Activer un équipement électrique
 
 
 Acteur principal : Utilisateur
 
 
-Préconditions :
+• Préconditions :
 
 
 L'utilisateur est connecté au système CasaControl : login (non nul et non vide ) et mot de pass ( non nul et non vide )
@@ -332,7 +332,7 @@ L’équipement est désactivé.
 Login(¬ null ∧ ¬ vide)(Λ)Mot de passe(¬ null ∧ ¬ vide)(Λ) client existant(Λ) équipement existant (Λ) équipement fonctionnel (Λ) équipement désactivé
 
 
-Post-conditions : Équipement activé
+• Post-conditions : Équipement activé
 
 
 Si l'activation est réussie, un message de confirmation "Équipement activé" est affiché à l'utilisateur et l'état de l'équipement est mis à jour.
@@ -355,10 +355,10 @@ Table de décision des tests de validation :
 
 
 
-Description du cas d'utilisation : Consulter la liste des équipements électriques
+•• Description du cas d'utilisation : Consulter la liste des équipements électriques
 
 Acteur principal : Utilisateur
-Préconditions :
+• Préconditions :
 
 L'utilisateur est connecté au système CasaControl : login (non nul et non vide ) et mot de pass ( non nul et non vide )
 
@@ -368,7 +368,7 @@ Des équipements existent.
 
 Login(¬ null ∧ ¬ vide)(Λ)Mot de passe(¬ null ∧ ¬ vide)(Λ) client existant(Λ) équipements existants
 
-Post-conditions :
+• Post-conditions :
 
 La liste des équipements électriques est affichée à l'utilisateur.
 
@@ -622,14 +622,9 @@ Postconditions :
  L'utilisateur a visualisé avec succès l'état actuel de l'équipement électrique sélectionné, ce qui lui
 
 
-6.Suivi du projet avec Classroom et GitHub :
+ ## Aspect statique :
 
-Les spécifications sont consultables sur le fichier Markdown « readme.md » à la racine de notre projet GithubAGL et le diagramme de cas d’utilisation « * .pu » dans un répertoire Diagrammes.
-
-
-Aspect statique :
-
-Description textuelle des classes principales :
+### Description textuelle des classes principales :
 
 Un utilisateur peut avoir une ou plusieurs maisons intelligentes.
 
@@ -684,7 +679,7 @@ Un capteur ou un actionneur n’est connecté qu’à une box.
 |               | dateAlerte        | string  | privé      |
 |               | typeAlerte        | string  | privé      |
 
-Description textuelle :
+### Description textuelle :
 
         Le diagramme de classe présenté représente les relations entre les différentes classes d'un système domotique “ CasaControl “.. Il met en évidence les relations reliant les classes.
 
@@ -718,9 +713,9 @@ Utilisateur: Représente un utilisateur du système domotique qui peut interagir
 
 Figure 1 : Diagramme de classe préliminaire de notre système domotique
 
-1. Diagramme de séquence :
+## 1. Diagramme de séquence :
 
-     A.  Ajouter un équipement électrique :
+   ###  A.  Ajouter un équipement électrique :
 
 Quand un utilisateur veut commander son réseau domotique, il peut accéder à l’interface de la plateforme dans son téléphone portable ou son PC et il saisit son login et son mot de passe. 
 Les entrées seront vérifiées dans l’application. 
@@ -740,14 +735,14 @@ Après avoir saisi les informations requises, l'utilisateur confirme l'ajout de 
 Le système valide les informations et ajoute le nouvel équipement à la liste des équipements électriques.
 
 
-Scénario alternatif 1:
+#### Scénario alternatif 1:
 
 L'utilisateur demande l'affichage de l'interface de l’ajout des équipements.
 L'interface de commande envoie les identifiants (login et mot de passe) au serveur pour vérification.
 Le serveur détecte que les identifiants sont invalides.
 L'interface de commande affiche un message d'erreur à l'utilisateur.
 
-Scénario alternatif 2:
+#### Scénario alternatif 2:
 
 L'utilisateur demande l'affichage de l'interface de l’ajout des équipements.
 L'interface de commande affiche l'interface d’ajout des équipements électriques à l'utilisateur.
@@ -763,7 +758,7 @@ Figure 2 : Diagramme de séquence :
 ![Capture d'écran 2024-04-29 194503](https://github.com/nouhabennasr/projectagl/assets/168307999/d95f93c0-6017-4a08-a199-2e2c0b916ab7)
 
 
- B. Activer un équipement électrique :
+### B. Activer un équipement électrique :
 
 Pour activer un équipement électrique, l’utilisateur clique sur “ Activer un équipement “. 
 On lui affiche la liste des équipements électriques et il choisit l’équipement qu’il veut activer. 
@@ -785,7 +780,7 @@ Un message de confirmation "Équipement activé" est affiché à l'utilisateur.
 
 
 
-Scénario alternatif :
+#### Scénario alternatif :
 
 L'interface de commande affiche l'interface d’ajout des équipements électriques à l'utilisateur.
 L'utilisateur souhaite activer un équipement électrique.
@@ -805,14 +800,14 @@ L’utilisateur peut connaître la liste des équipements électriques sur le r�
 Tout d’abord, il clique sur “ Consulter la liste des équipements électriques “. 
 
 
-Scénario nominal :
+#### Scénario nominal :
 
 L'utilisateur souhaite connaître la liste des équipements disponibles sur le réseau domotique.
 Il clique  sur “ Consulter la liste des équipements “.
 La liste des équipements est affichée
 
 
-Scénario alternatif :
+#### Scénario alternatif :
 
 L'utilisateur souhaite connaître la liste des équipements disponibles sur le réseau domotique.
 Il clique  sur “ Consulter la liste des équipements “.
@@ -829,7 +824,7 @@ L'utilisateur est invité à réessayer ultérieurement ou à contacter le suppo
 La conception détaillée est un document essentiel qui, s’il est bien étayé, nous permettra de restituer une réalisation de qualité.
 L’objectif de ce document est de fournir la feuille de route exhaustive et détaillée nécessaire à la réalisation technique de votre projet.
 ![Capture d'écran 2024-04-29 202721](https://github.com/nouhabennasr/projectagl/assets/168307999/615f6879-1884-4df8-a456-730cad97dda8)
-1-Raffinement du diagramme de classe préliminaire : 
+## 1-Raffinement du diagramme de classe préliminaire : 
 
 Identifier les classes et les relations : Vérifier et valider les classes déjà identifiées dans le diagramme de classe initial. Identifier de nouvelles classes si nécessaire en fonction des détails émergents.
 Spécifier les attributs et les méthodes : Examiner les attributs et les méthodes de chaque classe pour vous assurer qu'ils sont complets et précis. Ajouter des détails supplémentaires si nécessaire.
@@ -858,7 +853,7 @@ En résumé, l'encapsulation garantit une meilleure modularité, une gestion eff
 ![DiagrammeDeClasse1](https://github.com/nouhabennasr/projectagl/assets/168307999/3f1fce58-0562-4f8c-a71c-e3e1ab88f7f8)
 
 
-2. Le diagramme de machines à état :
+## 2. Le diagramme de machines à état :
 Ce diagramme d'état de transition représente le cycle de vie d'un système domotique, en montrant les différents états dans lesquels le système peut se trouver et les transitions entre ces états. Voici une explication détaillée du diagramme :
 États :
 Éteint (Rose) : C'est l'état initial du système, où le système est éteint et inactif.
@@ -881,15 +876,15 @@ De l'état Fin, le système revient à l'état initial éteint, prêt pour un no
 ![Capture d'écran 2024-04-29 203802](https://github.com/nouhabennasr/projectagl/assets/168307999/c7714b67-ad0d-4e17-9042-be9f18df6b52)
 ![Capture d'écran 2024-04-29 203843](https://github.com/nouhabennasr/projectagl/assets/168307999/d16a1c54-7850-4114-89a0-c3237d6793c2)
 
-1. 2ème raffinement du 2ème diagramme de classe : 
+## 1. 2ème raffinement du 2ème diagramme de classe : 
 
 
-A)Navigabilite
+### A)Navigabilite
 On a ajouté des flèches de navigabilité entre les classes pour représenter les relations entre elles. 
 Par exemple, on a relié la classe Utilisateur à la classe SMART_HOME avec une multiplicité de 1 à plusieurs (1..*), ce qui signifie qu'un utilisateur peut posséder plusieurs maisons intelligentes : relation unidirectionnelle puisque de base toutes les bases sont bidirectionnelles.
 
 
-A)Traduction des attributs dérivés:
+#### A)Traduction des attributs dérivés:
 On a également introduit des attributs dérivés pour les classes Lampe et Climatisation, ce qui permet de calculer certains attributs en fonction d'autres attributs de la classe. 
 
 
@@ -902,10 +897,10 @@ Par exemple, on a ajouté l'attribut consommationElectrique pour la classe Lampe
 ![Capture d'écran 2024-04-29 205205](https://github.com/nouhabennasr/projectagl/assets/168307999/27e1fff6-5369-4efb-9db8-187288946b30)
 ![Capture d'écran 2024-04-29 205241](https://github.com/nouhabennasr/projectagl/assets/168307999/05d80e3e-0af9-4a2c-ab55-1091bc6c7cbe)
 
-2. Invariants :
+## 2. Invariants :
 
 
-A‐ Invariants :
+### A‐ Invariants :
 
 
 Construction de l'invariant d'au moins une classe importante :
@@ -965,7 +960,7 @@ POi  : La position du capteur
 
 
 
-L'invariant peut être exprimé comme suit en logique propositionnelle :
+##### L'invariant peut être exprimé comme suit en logique propositionnelle :
 
 
 ∀Capteur,
@@ -974,7 +969,7 @@ L'invariant peut être exprimé comme suit en logique propositionnelle :
 (𝑈𝑖≠null)∧(𝑃𝑖≠null)∧(𝐴𝑖∈{actif,inactif})∧(𝐷𝑖≠null)∧(𝑇𝑖≠null)∧(𝑆𝑖≠null)∧(𝐹𝑖>0)∧(𝑅𝑖≠null)(Ui=null)∧(Pi=null)∧(Ai∈{actif,inactif})∧(Di=null)∧(POi≠nul)
 
 
-B‐ Tables de décisions des tests unitaires :
+## B‐ Tables de décisions des tests unitaires :
 
 
 Opération 1 : s’authentifier : la table de décision des tests unitaires.
